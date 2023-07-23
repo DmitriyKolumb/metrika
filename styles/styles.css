@@ -1,0 +1,44 @@
+@import "/styles/header.css";
+@import "/styles/title.css";
+@import "/styles/project.css";
+@import "/styles/services.css";
+@import "/styles/gallery.css";
+@import "/styles/info.css";
+@import "/styles/footer.css";
+@import "/styles/about-us.css";
+@import "/styles/button.css";
+@import "/styles/headlines.css";
+@import "/styles/review.css";
+
+body {
+  font-family: "Manrope", Courier, monospace;
+  background: #ffffff;
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+main {
+  background-color: #ffffff;
+}
+section {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+
+@media (max-width: 1199px) {
+  section {
+    width: 100%;
+    padding: 120px 17px 0 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 80px 12px 0 13px;
+  }
+  section:first-child {
+    padding-top: 0px;
+  }
+}
